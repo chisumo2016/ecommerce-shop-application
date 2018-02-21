@@ -1,0 +1,11 @@
+{
+  "name": "chisumo-online-shop",
+  "dependencies": {
+    "foundation-sites": "^6.4.3",
+    "jQuery": "~2.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "motion-ui": "^1.2.3"
+  }
+}
