@@ -1,5 +1,5 @@
 {
-  "name": "chisumo-online-shop",
+  "name": "chisumo-shop",
   "dependencies": {
     "foundation-sites": "^6.4.3",
     "jQuery": "~2.2",

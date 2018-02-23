@@ -1,11 +1,11 @@
 {
-  "author": "Bernard ",
+  "author": "Bernard",
   "description": "Chisumo Online Shop",
   "private": true,
-  "dependencies": {
-    "laravel-elixir": "~6.0.0-17"
-  },
   "devDependencies": {
-    "gulp-sass": "^3.1.0"
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "laravel-elixir": "~5.0.0"
   }
 }
