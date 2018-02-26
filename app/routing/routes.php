@@ -8,7 +8,14 @@ $router->map('GET', '/', '' , 'home');
 $match = $router->match();
 
 if($match){
-    echo 'Home   Page';
+
+    require_once __DIR__ . '/../controllers/BaseController.php';
+    require_once __DIR__ . '/../controllers/indexController.php' ;
+
+
+    $index = new App\Controllers\indexController();
+    $index->show();
+    //echo 'Home   Page';
 }else{
     header($_SERVER['SERVER_PROTOCOL']. '404 Not Found');
     echo 'Page not found';
